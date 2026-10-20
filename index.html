@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Мой проект - Кофейная</title>
     
-   <meta name="description" content="Уютная кофейня с лучшим кофе в городе. Бронирование столиков, свежная выпечка, бесплатный Wi-Fi и вегетарианское меню.">
+   <meta name="description" content="Уютная кофейня с лучшим кофе в городе. Бронирование столиков, свежая выпечка, бесплатный Wi-Fi и вегетарианское меню.">
    <link rel="icon" href="assets/img/favicon.svg">
    <meta name="theme-color" content="#1A40E7">
    
-   <meta property="og:title" content="Моя кофейня - Лучшиий кофе в городе">
+   <meta property="og:title" content="Моя кофейня - Лучший кофе в городе">
    
    <meta property="og:description" content="Уютная кофейня с лучшим кофе в городе. Бронирование столиков, свежая выпечка, бесплатный Wi-Fi и вегетарианское меню.">
    
@@ -23,8 +23,10 @@
     
     <nav aria-label="Основная навигация">
       <ul>
+        
+        <li><a href="menu.html">Наше меню (страница)</a></li> 
         <li><a href="#about">О нашей кофейне</a></li>
-        <li><a href="#menu">Наше меню</a></li>
+        <li><a href="#menu">Наше меню (на этой странице)</a></li>
        </ul>
       </nav>
       </header>
@@ -44,7 +46,7 @@
     <ol>
         <li>Выберите удобную дату и время.</li>
         <li>Позвоните нам по номеру телефона.</li>
-        <li>Дождитесь подтверждения от админстратора.</li>
+        <li>Дождитесь подтверждения от администратора.</li>
     </ol>
     
     <blockquote> 
@@ -57,7 +59,6 @@
     <h2 id="menu">Наше меню</h2>
     <p>В ассортименте представлены различные сорта кофе, чай и свежая выпечка.
 Наш шеф-повар любит повторять: <q>Свежая выпечка - залог хорошего утра</q>.</p>
- </p>
  
  <table>
    <caption>Цены на популярные напитки</caption>
@@ -94,7 +95,7 @@
         </ul>
       </li>
       <li>Зелёный чай с жасмином</li>
-      <li>Свежие круассанны</li>
+      <li>Свежие круассаны</li>
     </ul>
   </section>
   
@@ -117,12 +118,13 @@
     <h2>Аудиогид</h2>
     <audio controls>
       <source src="assets/media/chime.mp3" type="audio/mpeg">
-      <p>Ваш браузер не поддерживает аудио. <a href="assets/media/chime/mp3">Скачать аудиофайл</a>.</p>
+      
+      <p>Ваш браузер не поддерживает аудио. <a href="assets/media/chime.mp3">Скачать аудиофайл</a>.</p>
       </audio>
-      <section>
+    </section> <!-- ĐÃ XÓA THẺ <section> BỊ THỪA Ở ĐÂY -->
         
   <section>
-      <h2>Расписанние занятий</h2>
+      <h2>Расписание занятий</h2>
       
       <iframe src="assets/embed/schedule.html" title="Учебное расписание" width="800" height="600" loading="lazy" sandbox></iframe>
       <p><a href="assets/embed/schedule.html">Открыть страницу с расписанием</a></p>
@@ -217,18 +219,18 @@
               <section>
                 <h2>Термины и источники</h2>
                 
-                <p>В нашей кофейне мы часто используем слово <span lang="en">Specialty coffe</span>, что означает кофе высшего качества.</p>
+                <p>В нашей кофейне мы часто используем слово <span lang="en">Specialty coffee</span>, что означает кофе высшего качества.</p>
                 
                 <p>Настоящий <span translate="no">Espresso</span> готовится под высоким давлением.</p>
                 
                 <p>Мы гордимся тем, что являемся частью ассоциации <abbr title="Hotel, Restaurant, Cafe">HORECA</abbr>.</p>
                 
-                <p>Наша кофейня отрыласъ <time datetime="2023-10-01">1 октября 2023 года</time>.</p>
+                <p>Наша кофейня открылась <time datetime="2023-10-01">1 октября 2023 года</time>.</p>
                 
-                <p>Подробнее о сортах кофе можно прочитать в <a href="https://en.wikipedia.org/wiki/Coffe" hreflang="en">статье на английском языке</a>.</p>
+                <!-- ĐÃ THÊM target="_blank" rel="noopener noreferrer" VÀ SỬA LỖI CHÍNH TẢ URL -->
+                <p>Подробнее о сортах кофе можно прочитать в <a href="https://en.wikipedia.org/wiki/Coffee" hreflang="en" target="_blank" rel="noopener noreferrer">статье на английском языке</a>.</p>
                 </section>
                 
-              
   </main>
        
     <footer>
